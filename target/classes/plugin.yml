@@ -1,0 +1,23 @@
+name: VoxelVerseMoneyMaker
+version: 1.0
+main: me.drmayx.voxelmoneymaker.voxelversemoneymaker.VoxelVerseMoneyMaker
+api-version: 1.13
+authors: [DrMayX]
+description: Make your players earn money just for playing !
+
+depend: [Vault, Essentials]
+
+commands:
+  moneymaker:
+    description: Read the configuration file;
+    aliases: vvmm
+    usage: /<command> [readconfig]
+    permission:
+      moneymaker.command
+    permissions:
+      moneymaker.earn:
+        description: Allows a player to be paid by server.
+        default: true\
+      moneymaker.command:
+        description: Allows a player to use commands.
+        default: op
