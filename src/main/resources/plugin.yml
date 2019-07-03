@@ -11,7 +11,7 @@ commands:
   moneymaker:
     description: Read the configuration file;
     aliases: vvmm
-    usage: /<command> [readconfig]
+    usage: /<command> reload
     permission:
       moneymaker.command
     permissions:
